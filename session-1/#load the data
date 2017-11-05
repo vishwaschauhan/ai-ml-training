@@ -1,0 +1,38 @@
+#load the data
+#prepare the data
+#visualize the data
+#select a model
+#train a model
+#make prediction
+
+
+import matplotlib
+import matplotlib.pyplot 
+import numpy
+import sklearn
+import panda
+
+#load the data
+	
+	reader.readCSV(); --- read_csv(" ")  //in panda library
+
+#prepare the data
+
+	labels, data --> cleaning
+	x
+	y
+
+#visualize the data
+	
+	plot.show()
+
+#select a model
+
+	model = sklearn.linear_model.LinearRegression()
+
+#train a model
+
+	model.fit(x,y)
+
+#make prediction
+	model.predict(X_new)
